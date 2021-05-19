@@ -2,6 +2,8 @@
 title: "My answers"
 author: "My name"
 date: '`r format(Sys.time(), "%d %B, %Y")`'
+duedate: "4th of June, 2021"
+duetime: "23:59 CEST"
 output: html_document
 ---
 
