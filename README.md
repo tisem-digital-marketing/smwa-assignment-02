@@ -51,7 +51,7 @@ Group members **must accept** this invitation to be able to view and contribute 
 To work on this assignment, first clone the GitHub repository to your machine:
 
 ```{bash}
-git clone https://github.com/tisem-digital-marketing/smwa-assignment-01-TEAMNAME.git
+git clone https://github.com/tisem-digital-marketing/smwa-assignment-02-TEAMNAME.git
 ```
 
 where you replace "TEAMNAME" with your group's team name.
@@ -74,11 +74,11 @@ from a terminal when your working directory is this folder, **or** use the Git p
 
 ## Template Meta-Information
 
-*   Template Maintainer: Lachlan Deer (`@lachlandeer`)
-*   Course: [Social Media and Web Analytics](https://github.com/tisem-social-media)
-*   Institute: [Dept of Marketing, TiSEM](https://www.tilburguniversity.edu/about/schools/economics-and-management/organization/departments/marketing)
-*   Template Link: [click here](https://github.com/tisem-digital-marketing/smwa-assignment-02)
-*   Current Version: [Spring 2021](https://tisem-digital-marketing.github.io/2021-smwa/)
+* Template Maintainer: Lachlan Deer (`@lachlandeer`)
+* Course: [Social Media and Web Analytics](https://github.com/tisem-social-media)
+* Institute: [Dept of Marketing, TiSEM](https://www.tilburguniversity.edu/about/schools/economics-and-management/organization/departments/marketing)
+* Template Link: [click here](https://github.com/tisem-digital-marketing/smwa-assignment-02)
+* Current Version: [Spring 2021](https://tisem-digital-marketing.github.io/2021-smwa/)
 
 ### Suggested Citation
 
