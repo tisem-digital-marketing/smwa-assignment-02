@@ -2,7 +2,7 @@
 title: "My answers"
 author: "My name"
 date: '`r format(Sys.time(), "%d %B, %Y")`'
-duedate: "4th of June, 2021"
+duedate: "3rd of June, 2021"
 duetime: "23:59 CEST"
 output: html_document
 ---
@@ -34,10 +34,8 @@ Group members will then get an email to accept this invitation.
 Group members **must accept** this invitation to be able to view and contribute to the assignment.
 
 To work on this assignment, first clone the GitHub repository to your machine, see the `README.md` for more details.
-After you have cloned the repository to your machine, you can download the data for this assignment.
+After you have cloned the repository to your machine, the data for the assignment are available in the `data/` subdirectory.
 Open an RStudio session and use this folder as a project.
-The data is downloaded to the `data` sub-directory by running the R script '`data/download_data.R`'.
-When you run this script you will be asked to log in to your Google account to access the data, follow the instructions in the console to get proceed to get access.
 Be sure to install all the necessary packages so that your solution document will run from start to finish.
 
 Remember, your goal is to communicate. 
