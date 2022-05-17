@@ -136,7 +136,7 @@ Uncomment the code to proceed further.
 ```
 
 
-5. Use your answer to (4) to describe any differences in the frequency of complaints posted on Twitter for different airlines.
+5. Use your answer to (4) to describe any differences in the frequency of tweets posted for different airlines.
 Does this suggest some airlines are better than others at customer service?
 (max. 7 sentences)
 
