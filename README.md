@@ -33,7 +33,7 @@ Your solution must use the `Rmarkdown` template provided in the assignment's rep
 This means your answers will be compiled into a file called `assignment_answer.html` when you use the 'Knit' button in RStudio.
 Failure to follow these steps and submit `assignment_answer.html` in your GitHub repository along with the `assignment_answer.Rmd`, will result in a assignment grade of **zero**.
 
-Each group has been assigned a **group leader**.
+Each group needs to appoint a **group leader**.
 It is the group leaders job to "accept" the assignment via GitHub and then add all group members as collaborators to the group assignment.
 To do this, the group leader will need each member's GitHub username.
 The group leader can add group members as follows:
@@ -72,7 +72,7 @@ from a terminal when your working directory is this folder, **or** use the Git p
 
 ## Grading Information
 
-* Points for each question are clearly marked
+* Points for each question are clearly marked in the answer document.
 * Disputes over grades earned in the assignment must be made in writing, no later than 48 hours after their release. You must clearly state which questions you think are graded incorrectly.
 * Disputes take the form of a request for the assignment to be regraded in **full.** Your grade may increase or decrease as a result of a regrade.
 * The grading rubric used by the assessor is available in this repository
