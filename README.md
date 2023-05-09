@@ -17,7 +17,7 @@ Check the [course syllabus](https://tisem-digital-marketing.github.io/2023-smwa/
 * GitHub Handles: LIST GITHUB USERNAMES OF ALL GROUP MEMBERS
 * Group Leader: YOUR_NAME (YOUR_GH_USERNAME), i.e. "Lachlan Deer (@lachlandeer)"
 
-## Grading Information
+## Submission Information
 
 * Due Date: **June 2, 2023 at 23:59 pm**
 
