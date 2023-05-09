@@ -2,9 +2,9 @@
 title: "My answers"
 author: "My name"
 date: '`r format(Sys.time(), "%d %B, %Y")`'
-duedate: "3rd of June, 2021"
+duedate: "2nd of June, 2023"
 duetime: "23:59 CEST"
-output: html_document
+output: pdf_document
 ---
 
 ## Instructions
@@ -18,7 +18,7 @@ This means your answers will be compiled into a file called `assignment_answers.
 Failure to follow these steps and submit `assignment_answers.html` in your GitHub repository along with the `assignment_answers.Rmd`, will result in a assignment grade of **zero**.
 Refer to the repository's `README.md` for instructions on how to complete the title and author fields for submission.
 
-Each group has been assigned a **group leader**.
+Each group needs to appoint a **group leader**.
 It is the group leader's job to "accept" the assignment via GitHub and then add all group members as collaborators to the group assignment. 
 To do this, the group leader will need each member's GitHub username.
 The group leader can add group members as follows:
@@ -76,12 +76,12 @@ Your goal is to derive managerially relevant insights from the data.
 
 ### Questions
 
-1. Explain why consumers might use Twitter to express complaints about airlines. 
+1. [5 points] Explain why consumers might use Twitter to express complaints about airlines. 
 (max. 7 sentences)
 
-**Write your answer here**
+*Write your answer here*
 
-2. Load the data for the exercise and name it `tweets`.^[
+2. [1 point] Load the data for the exercise and name it `tweets`.^[
   When you load the data into `R` you might get 'parsing failures', where R struggles to read in certain lines. 
   This is OK, ignore these and continue.
   The loaded data should contain 14,640 rows.
@@ -122,28 +122,28 @@ Uncomment the code to proceed further.
 #          )
 ```
 
-3. Drop all tweets that have less than three words.
+3. [1 point] Drop all tweets that have less than three words.
 
 ```{r}
 # Write your answer here
 ```
 
 
-4. Create a bar plot that displays the number of tweets in the dataset per airline.
+4. [2 points] Create a bar plot that displays the number of tweets in the dataset per airline.
 
 ```{r}
 # Write your answer here
 ```
 
 
-5. Use your answer to (4) to describe any differences in the frequency of tweets posted for different airlines.
+5. [5 points] Use your answer to (4) to describe any differences in the frequency of tweets posted for different airlines.
 Does this suggest some airlines are better than others at customer service?
 (max. 7 sentences)
 
-**Write your answer here**
+*Write your answer here*
 
 
-6. Reduce the size of the dataframe so that only `airline`, `airline_sentiment` and `text` remain as columns.
+6. [1 point] Reduce the size of the dataframe so that only `airline`, `airline_sentiment` and `text` remain as columns.
 Add a column `id` that uses an observation's row number to give each tweet a unique id.
 
 ```{r}
@@ -154,18 +154,18 @@ Add a column `id` that uses an observation's row number to give each tweet a uni
 Your manager proposes using a sentiment lexicon to classify tweets as positive, negative or neutral (he doesn't know this classification already exists in the data).
 Based on what they have heard from another analyst in your company he recommends the VADER lexicon. 
 
-7. What is a sentiment lexicon and how does it classify tweets as positive, negative, or neutral? Why would this classification be useful?
+7. [5 points] What is a sentiment lexicon and how does it classify tweets as positive, negative, or neutral? Why would this classification be useful?
 (max. 7 sentences)
 
-**Write your answer here**
+*Write your answer here*
 
 
-8. Why might your manager have suggested VADER?
+8. [5 points] Why might your manager have suggested VADER?
 (max. 7 sentences)
 
-**Write your answer here**
+*Write your answer here*
 
-9. Use the VADER lexicon to classify tweets as positive, negative or neutral.^[
+9. [5 points] Use the VADER lexicon to classify tweets as positive, negative or neutral.^[
   You might find some rows of data return `ERROR` as their output. Filter these out of what follows.
 ] 
 
@@ -174,7 +174,7 @@ Based on what they have heard from another analyst in your company he recommends
 ```
 
 
-10. Merge this sentiment classification with the existing data from (6).
+10. [2 points] Merge this sentiment classification with the existing data from (6).
 
 ```{r}
 # Write your answer here
@@ -184,43 +184,43 @@ Based on what they have heard from another analyst in your company he recommends
 The data you originally had access already had a classification of tweets into positive, negative and neutral in the column `airline_sentiment`.
 You will want to compare the VADER output to this classification.
 
-11. What is a confusion matrix? Why can it be used to assess the performance of VADER relative to the existing classification?
+11. [5 points] What is a confusion matrix? Why can it be used to assess the performance of VADER relative to the existing classification?
 (max. 4 sentences)
 
-**Write your answer here**
+*Write your answer here*
 
-12. Compute the confusion matrix by comparing `airline_sentiment` to VADER's predictions.
-
-```{r}
-# Write your answer here
-```
-
-
-13. Compute the accuracy of VADER's predictions compared to `airline_sentiment`.
+12. [2 points] Compute the confusion matrix by comparing `airline_sentiment` to VADER's predictions.
 
 ```{r}
 # Write your answer here
 ```
 
 
-14. Summarize your findings for the manager.
+13. [2 points] Compute the accuracy of VADER's predictions compared to `airline_sentiment`.
+
+```{r}
+# Write your answer here
+```
+
+
+14. [5 points] Summarize your findings for the manager.
 Would you recommend using a pre-canned sentiment lexicon such a VADER for dealing with complaints data based on your findings?
 (max. 7 sentences)
 
-**Write your answer here**
+*Write your answer here*
 
 After seeing the results above, your manager sets you a new task: He wants to know what topics people discuss in negative tweets and how the airline you work for compares to the rest of the industry.
 Your manager assigned you his best text modeler, who was put to work overnight to produce a first draft of a topic model. 
 The topic model is saved as `data/complaints_topics.Rds` and can be loaded using the `list.load()` function.
 
-15. Load the topic model from file into `R`.
+15 [1 point]. Load the topic model from file into `R`.
 
 ```{r}
 # Write your answer here
 ```
 
 
-16. How many topics are in the estimated model?
+16. [4 points] How many topics are in the estimated model?
 Use the output of the `labelTopics()` command to help you assign each topic a 'label' describing what it represents.
 
 ```{r}
@@ -228,17 +228,17 @@ Use the output of the `labelTopics()` command to help you assign each topic a 'l
 ```
 
 
-17. Are the topics above relatively distinct from each other?
+17. [5 points] Are the topics above relatively distinct from each other?
 Are there managerial implications for each topic? Explain.
 (max 10 sentences)
 
-**Write your answer here**
+*Write your answer here*
 
 
 The text modeler also assigned each negative tweet its most probable topic from the model they estimated. 
 The resulting data set is saved as `data/complaint_tweets.csv`.
 
-18. Load the data & produce a graph that shows the proportion of tweets for each airline in each topic. 
+18. [4 points] Load the data & produce a graph that shows the proportion of tweets for each airline in each topic. 
 Your final graph might resemble the one below, but should have meaningful plot labels rather than 1, 2, 3 and so on:
 
 ```{r, echo = FALSE, out.width="65%", fig.align='center'}
@@ -250,13 +250,13 @@ knitr::include_graphics("figs/topics.png")
 ```
 
 
-19. Explain the relevant findings you would want to report to your manager (a United Airlines employee) from this graph.
-(max. 10 sentences)
+19. [5 points] Explain the relevant findings you would want to report to your manager (a United Airlines employee) from this graph.
+(max. 6 sentences)
 
-**Write your answer here**
+*Write your answer here*
 
 
-20. Using the results from above propose a new strategy that United Airlines could adopt in the short run to make it more competitive than their competition in terms of dealing with complaints.
-(max. 7 sentences)
+20. [5 points] Using the results from above propose a new strategy that United Airlines could adopt in the short run to make it more competitive than their competition in terms of dealing with complaints.
+(max. 6 sentences)
 
 **Write your answer here**
