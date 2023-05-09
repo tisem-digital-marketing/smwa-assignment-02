@@ -4,7 +4,7 @@ author: "My name"
 date: '`r format(Sys.time(), "%d %B, %Y")`'
 duedate: "2nd of June, 2023"
 duetime: "23:59 CEST"
-output: pdf_document
+output: html_document
 ---
 
 ## Instructions
