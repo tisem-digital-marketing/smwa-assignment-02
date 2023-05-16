@@ -48,6 +48,7 @@ Sentence limits often apply to questions that require written answers - stick to
 
 This exercise studies airline complaints expressed on Twitter by using the text analytic tools you have used in class and labs.
 The content is not explicitly based on any published research, but drew inspiration from the article "[Exit, Tweets, and Loyalty](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2889388)" by Joshua Gans, Avi Goldfarb and Mara Lederman.
+You are encouraged to read the "Introduction" to help frame some of your answers.
 
 The data for this exercise is located in  `data/tweets.csv`.
 The tweets are a slightly cleaned up version of a "raw" set of tweets and include some additional variables that you can use in your analysis.
