@@ -49,8 +49,7 @@ Sentence limits often apply to questions that require written answers - stick to
 This exercise studies airline complaints expressed on Twitter by using the text analytic tools you have used in class and labs.
 The content is not explicitly based on any published research, but drew inspiration from the article "[Exit, Tweets, and Loyalty](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2889388)" by Joshua Gans, Avi Goldfarb and Mara Lederman.
 
-The data for this exercise can be downloaded from the internet using the `data/download_data.R` script included in the starter files for this assignment.
-After downloading the data, it will be saved as `data/tweets.csv`.
+The data for this exercise is located in  `data/tweets.csv`.
 The tweets are a slightly cleaned up version of a "raw" set of tweets and include some additional variables that you can use in your analysis.
 
 For this exercise you might need the following packages: 
@@ -77,7 +76,7 @@ Your goal is to derive managerially relevant insights from the data.
 ### Questions
 
 1. [5 points] Explain why consumers might use Twitter to express complaints about airlines. 
-(max. 7 sentences)
+(max. 5 sentences)
 
 *Write your answer here*
 
@@ -138,7 +137,7 @@ Uncomment the code to proceed further.
 
 5. [5 points] Use your answer to (4) to describe any differences in the frequency of tweets posted for different airlines.
 Does this suggest some airlines are better than others at customer service?
-(max. 7 sentences)
+(max. 5 sentences)
 
 *Write your answer here*
 
@@ -155,13 +154,13 @@ Your manager proposes using a sentiment lexicon to classify tweets as positive, 
 Based on what they have heard from another analyst in your company he recommends the VADER lexicon. 
 
 7. [5 points] What is a sentiment lexicon and how does it classify tweets as positive, negative, or neutral? Why would this classification be useful?
-(max. 7 sentences)
+(max. 5 sentences)
 
 *Write your answer here*
 
 
 8. [5 points] Why might your manager have suggested VADER?
-(max. 7 sentences)
+(max. 5 sentences)
 
 *Write your answer here*
 
@@ -185,7 +184,7 @@ The data you originally had access already had a classification of tweets into p
 You will want to compare the VADER output to this classification.
 
 11. [5 points] What is a confusion matrix? Why can it be used to assess the performance of VADER relative to the existing classification?
-(max. 4 sentences)
+(max. 5 sentences)
 
 *Write your answer here*
 
@@ -205,7 +204,7 @@ You will want to compare the VADER output to this classification.
 
 14. [5 points] Summarize your findings for the manager.
 Would you recommend using a pre-canned sentiment lexicon such a VADER for dealing with complaints data based on your findings?
-(max. 7 sentences)
+(max. 5 sentences)
 
 *Write your answer here*
 
@@ -230,7 +229,7 @@ Use the output of the `labelTopics()` command to help you assign each topic a 'l
 
 17. [5 points] Are the topics above relatively distinct from each other?
 Are there managerial implications for each topic? Explain.
-(max 10 sentences)
+(max 5 sentences)
 
 *Write your answer here*
 
@@ -251,12 +250,12 @@ knitr::include_graphics("figs/topics.png")
 
 
 19. [5 points] Explain the relevant findings you would want to report to your manager (a United Airlines employee) from this graph.
-(max. 6 sentences)
+(max. 5 sentences)
 
 *Write your answer here*
 
 
 20. [5 points] Using the results from above propose a new strategy that United Airlines could adopt in the short run to make it more competitive than their competition in terms of dealing with complaints.
-(max. 6 sentences)
+(max. 5 sentences)
 
-**Write your answer here**
+*Write your answer here*
