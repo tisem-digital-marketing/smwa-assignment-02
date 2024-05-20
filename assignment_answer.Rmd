@@ -2,7 +2,7 @@
 title: "My answers"
 author: "My name"
 date: '`r format(Sys.time(), "%d %B, %Y")`'
-duedate: "2nd of June, 2023"
+duedate: "31st of May, 2024"
 duetime: "23:59 CEST"
 output: html_document
 ---

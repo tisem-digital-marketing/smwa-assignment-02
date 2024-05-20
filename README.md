@@ -5,21 +5,20 @@
 ### Tilburg School of Economics and Marketing
 
 [![Template Lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
-[![Template Version](https://img.shields.io/badge/version-2023-green.svg)]()
+[![Template Version](https://img.shields.io/badge/version-2024-green.svg)]()
 
 **The group assignment is grade relevant.**
-Check the [course syllabus](https://tisem-digital-marketing.github.io/2023-smwa/assets/syllabus.pdf) for more details.
+Check the [course syllabus](https://tisem-digital-marketing.github.io/2024-smwa/assets/syllabus.pdf) for more details.
 
 ## Meta-Information
 
 * Group Name: GROUP_NAME
 * Group Members: LIST GROUP MEMBERS
 * GitHub Handles: LIST GITHUB USERNAMES OF ALL GROUP MEMBERS
-* Group Leader: YOUR_NAME (YOUR_GH_USERNAME), i.e. "Lachlan Deer (@lachlandeer)"
 
 ## Submission Information
 
-* Due Date: **June 2, 2023 at 23:59 pm**
+* Due Date: **May 31, 2024 at 23:59 pm**
 
 Submission is via GitHub Classroom.
 Your most recent commit that is on the `main` branch that is available online on GitHub before the due date will be graded.
@@ -51,7 +50,7 @@ Group members **must accept** this invitation to be able to view and contribute 
 To work on this assignment, first clone the GitHub repository to your machine:
 
 ```{bash}
-git clone https://github.com/tisem-digital-marketing/2023-smwa-assignment-02-TEAMNAME.git
+git clone https://github.com/tisem-digital-marketing/2024-smwa-assignment-02-TEAMNAME.git
 ```
 
 where you replace "TEAMNAME" with your group's team name.
@@ -83,12 +82,12 @@ from a terminal when your working directory is this folder, **or** use the Git p
 * Course: [Social Media and Web Analytics](https://github.com/tisem-social-media)
 * Institute: [Dept of Marketing, TiSEM](https://www.tilburguniversity.edu/about/schools/economics-and-management/organization/departments/marketing)
 * Template Link: [click here](https://github.com/tisem-digital-marketing/smwa-assignment-02)
-* Current Version: [Spring 2023](https://tisem-digital-marketing.github.io/2023-smwa/)
+* Current Version: [Spring 2024](https://tisem-digital-marketing.github.io/2024-smwa/)
 
 ### Suggested Citation
 
 ```bash
-Lachlan Deer, 2023, Group Assignment 2 Template, Social Media and Web Analytics, TiSEM
+Lachlan Deer, 2024, Group Assignment 2 Template, Social Media and Web Analytics, TiSEM
 ```
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />
